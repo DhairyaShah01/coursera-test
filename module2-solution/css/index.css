@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 15px;
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+  font-size: 175%;
+}
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.box {
+  border: 1px solid black;
+  margin: 5px 10px 15px 10px;
+  background-color: #00BB00;
+}
+
+.box-content {
+  clear: right;
+  height: auto;
+  text-align: justify;
+  width: 95%;
+  padding-right: 5%;
+  margin-right: 0px;
+  margin-left: auto;
+  margin-top: 10px;
+  overflow: auto;
+}
+
+.box-heading{
+  float: right;
+  position: relative;
+  right: -1px;
+  top: -1px;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 125%;
+}
+
+.box-heading-1 {
+  background-color: #FFB6C1;
+}
+
+.box-heading-2 {
+  background-color: #FF0000;
+  color: white;
+}
+
+.box-heading-3 {
+  background-color: #FFFF00;
+}
+
+.row{
+  width: 100%;
+}
+
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+  
+
+@media(max-width: 768px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
