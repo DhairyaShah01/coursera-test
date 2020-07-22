@@ -1,5 +1,5 @@
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
-
+  Set-Cookie: SameSite=None; Secure 
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
   $("#navbarToggle").blur(function (event) {
     var screenWidth = window.innerWidth;
